@@ -1,0 +1,23 @@
+{
+  "triggerSettings": [
+    {
+      "title": "Hello",
+      "html": "jcndscnsld",
+      "time": {
+        "name": "Time Delay",
+        "active": true,
+        "delay": 1000
+      },
+      "scroll": {
+        "name": "Scroll Distance",
+        "active": true,
+        "scrollDistance": 60
+      },
+      "exitIntent": {
+        "name": "Exit intent",
+        "active": false
+      },
+      "id": 1
+    }
+  ]
+}

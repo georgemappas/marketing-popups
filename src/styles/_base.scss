@@ -1,0 +1,53 @@
+.wrapper {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.button-primary {
+    text-decoration: none;
+    color: white;
+    background-color: #3F385F;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    &:hover {
+        background-color: #6f64a3;
+    }
+}
+
+.button-icon {
+    text-align: right;
+    margin-bottom: 50px;
+    & span {
+        padding: 10px;
+        background-color: #56C9AC;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+        &:hover {
+            background-color: #40a88e;
+        }
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.page-title {
+    margin-top: 24px;
+}
+
+.margin-bottom {
+    margin-bottom: 80px;
+}

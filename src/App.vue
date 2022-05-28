@@ -1,30 +1,34 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/">Modal List</router-link>  | 
+    <router-link to="/playground">Playground</router-link> 
+    
   </nav>
   <router-view/>
 </template>
 
 <style lang="scss">
-#app {
+body {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #3F385F;
+}
+
+nav{
+  background-color: #3F385F;
+  padding: 20px  0px;
   text-align: center;
-  color: #2c3e50;
+  color: white
 }
 
-nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+nav a{
+  color: rgb(255, 241, 241);
 }
+
+.router-link-active{
+  color: #ff7792;
+}
+
+
 </style>
